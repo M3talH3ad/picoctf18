@@ -1,0 +1,5 @@
+Replace button2 html by:
+
+<form action="button2.php" method="POST">
+   <input type="submit" value="Button2">
+</form>

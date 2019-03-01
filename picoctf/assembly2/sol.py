@@ -1,0 +1,19 @@
+var_1=0xe
+var_2=0x21
+
+ebp_plus_0xc=var_2 
+eax = ebp_plus_0xc
+ebp_mibus_0x4=eax
+
+ebp_plus_0x8=var_1
+eax = ebp_plus_0x8
+ebp_minus_0x8=eax
+
+while True:
+	if (ebp_plus_0x8 <= 0x9886):
+		ebp_mibus_0x4+=1
+		ebp_plus_0x8+= 0x41
+	else:
+		eax = ebp_mibus_0x4
+		print hex(eax)
+		break

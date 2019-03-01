@@ -1,0 +1,3 @@
+Use jar available at https://github.com/eugenekolo/sec-tools/blob/master/stego/stegsolve/stegsolve/stegsolve.jar
+
+java -jar stegosolve.jar
